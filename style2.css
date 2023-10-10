@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    background-image: url(https://w-dog.ru/wallpapers/9/17/497709090582219/avstriya-sterreich-republik-sterreich-respublika-avstrija-respublika-austrija-osztrk-kztrsasg-tappenkarsee-ozero-gory.jpg);
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+.icon {
+    color: white;
+    font-size: 80px;
+    /* height: 100vh; */
+}
+
+
+
+.box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    height: 200px;
+    width: 40%;
+}

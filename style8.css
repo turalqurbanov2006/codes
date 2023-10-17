@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+section {
+    background-image: url(https://preview.colorlib.com/theme/tralive/assets/img/hero/h1_hero1.png.webp);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.image img{
+    animation: 3s image linear infinite alternate;
+    position: absolute;
+    top: 30%;
+}
+@keyframes image {
+    from {
+        left: 20%;
+    }
+
+    to {
+        left: 30%;
+    }
+}
